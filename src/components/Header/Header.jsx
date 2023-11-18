@@ -1,9 +1,10 @@
-import Logo from "../../assets/icons/logo.svg"
-import search from "../../assets/icons/search.svg"
-import cart from "../../assets/icons/cart.svg"
-import moon from "../../assets/icons/moon.svg"
+import React from 'react'
+import Logo from '../../assets/icons/logo.svg'
+import search from '../../assets/icons/search.svg'
+import cart from '../../assets/icons/cart.svg'
+import moon from '../../assets/icons/moon.svg'
 
-export default function Header() {
+export default function Header () {
   return (
   <header>
     <ul className="nav">

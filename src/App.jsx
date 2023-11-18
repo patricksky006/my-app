@@ -1,8 +1,8 @@
-
 import './App.css'
 import MainPage from './components/Mainpage'
+import React from 'react'
 
-function App() {
+function App () {
   return (
     <>
       <MainPage />
