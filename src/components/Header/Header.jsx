@@ -1,8 +1,9 @@
 import React from 'react'
 import Logo from '../../assets/icons/logo.svg'
-import search from '../../assets/icons/search.svg'
-import cart from '../../assets/icons/cart.svg'
-import moon from '../../assets/icons/moon.svg'
+import Search from '../../assets/icons/search.svg'
+import Cart from '../../assets/icons/cart.svg'
+import Moon from '../../assets/icons/moon.svg'
+import '../../style/header.scss'
 
 export default function Header () {
   return (
@@ -15,9 +16,11 @@ export default function Header () {
       <li className="nav-item"><a href="#" className="nav-link contact-us">聯絡我們</a></li>
     </ul>
     <img src={Logo} alt="" className="logo" />
-    <img src={search} alt="" className="search-icon" />
-    <img src={cart} alt="" className="cart-icon" />
-    <img src={moon} alt="" className="moon-icon" />
+    <div className="nav-icon">
+      <img src={Search} alt="" className="search-icon icon" />
+      <img src={Cart} alt="" className="cart-icon icon" />
+      <img src={Moon} alt="" className="moon-icon icon" />
+    </div>
   </header>
   )
 }
