@@ -6,7 +6,7 @@ export default function Step1 () {
       <h2 className="delivery-address">寄送地址</h2>
       <form action="" className="form-container">
         <div className="form-part">
-          <label htmlFor="" className="name-title">稱謂</label>
+          <label htmlFor="a-typ" className="name-title">稱謂</label>
           <select name="" id="" className="a-type">
             <option value="" className="sir">先生</option>
             <option value="" className="miss">女士</option>
