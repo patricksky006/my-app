@@ -3,6 +3,7 @@ import Logo from '../../assets/icons/logo.svg'
 import Facebook from '../../assets/icons/facebook.svg'
 import Instagram from '../../assets/icons/instagram.svg'
 import Whatsapp from '../../assets/icons/whatsapp.svg'
+import '../../style/footer.scss'
 
 export default function Footer () {
   return (

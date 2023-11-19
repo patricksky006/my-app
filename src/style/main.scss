@@ -1,0 +1,16 @@
+main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  flex-grow: 1;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  .left-content {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
