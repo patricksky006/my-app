@@ -10,13 +10,13 @@ export default function StepProgress () {
         <div className="step">
           <div className="circle-container"></div>
           <div className="label-container">寄送地址</div>
-          <div className="connect-line"></div>
         </div>
+        <div className="connect-line"></div>
         <div className="step">
           <div className="circle-container"></div>
           <div className="label-container">運送方式</div>
-          <div className="connect-line"></div>
         </div>
+        <div className="connect-line"></div>
         <div className="step">
           <div className="circle-container"></div>
           <div className="label-container">付款資訊</div>
