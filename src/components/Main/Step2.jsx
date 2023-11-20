@@ -1,14 +1,15 @@
 import React from 'react'
+import '../../style/step2.scss'
 
 export default function Step2 () {
   return (
     <>
-    <div className="step-container d-none">
+    <div className="step-container ">
       <h2 className="ship-method">運送方式</h2>
-      <form action="" className="shipping">
+      <form action="" className="shipping-container">
         <div className="ship-wrapper">
           <div className="ship-part">
-            <input type="radio" className="std-ship" />
+            <input type="radio" name="shippingMethod" className="std-ship" />
             <div className="ship-part-content">
               <div className="ship-part-content-part">
                 <label htmlFor="std-ship" className='label-std-ship'>標準運送</label>
@@ -18,7 +19,7 @@ export default function Step2 () {
             </div>
           </div>
           <div className="ship-part">
-            <input type="radio" className="dhl-ship" />
+            <input type="radio" name="shippingMethod" className="dhl-ship" />
             <div className="ship-part-content">
               <div className="ship-part-content-part">
                 <label htmlFor="dhl-ship" className='label-dhl-ship'>DHL 貨運</label>

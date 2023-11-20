@@ -4,7 +4,7 @@ import '../../style/step1.scss'
 export default function Step1 () {
   return (
     <>
-    <div className="step-container">
+    <div className="step-container d-none">
       <h2 className="delivery-address">寄送地址</h2>
       <form action="" className="form-container">
         <div className="form-part a-part">
