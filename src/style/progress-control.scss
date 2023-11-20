@@ -1,4 +1,26 @@
+
+
 .progress-control-container {
   width: 100%;
   height: 50%;
+  .progress-control-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .left-stage {
+      width: 10rem;
+      background-color: #fff;
+    }
+    .right-stage {
+      width: 10rem;
+      background-color: palevioletred;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      span {
+        margin-right: 1rem;
+        color: white;
+      }
+    }
+  }
 }
