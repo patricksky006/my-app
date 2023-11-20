@@ -47,7 +47,7 @@
             border-color: darkgray;
           }
           &[type="radio"] {
-            -webkit-appearance: none;
+            appearance: none;
             height: 1rem;
             width: 1rem;
             cursor: pointer;
@@ -64,6 +64,7 @@
           .ship-part-content-part {
             display: flex;
             justify-content: space-between;
+            margin-bottom: 0.5rem;
           }
           .ship-time {
             text-align: start;

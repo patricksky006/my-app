@@ -1,0 +1,68 @@
+%form-part-style {
+  display: flex;
+  flex-direction: column;
+  padding-right: 2rem;
+  font-size: 1.5rem;
+}
+
+%label-style {
+  text-align: start;
+  margin-bottom: 1rem;
+}
+
+%select-type-style {
+  padding: 5px;
+}
+
+.paying-container {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  .payment-wrapper {
+    width: 100%;
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    .a-part {
+      grid-column: 1 / 5;
+      @extend %form-part-style;
+      label {
+        @extend %label-style;
+      }
+      input {
+        @extend %select-type-style;
+      }
+    }
+    .b-part {
+      grid-column: 1 / 5;
+      @extend %form-part-style;
+      label {
+        @extend %label-style;
+      }
+      input {
+        @extend %select-type-style;
+      }
+    }
+    .c-part {
+      grid-column: 1 / 4;
+      @extend %form-part-style;
+      label {
+        @extend %label-style;
+      }
+      input {
+        @extend %select-type-style;
+      }
+    }
+    .d-part {
+      grid-column: 4 / 7;
+      @extend %form-part-style;
+      label {
+        @extend %label-style;
+      }
+      input {
+        @extend %select-type-style;
+      }
+    }
+  }
+}
