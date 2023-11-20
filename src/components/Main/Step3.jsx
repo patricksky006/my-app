@@ -3,7 +3,7 @@ import React from 'react'
 export default function Step3 () {
   return (
     <>
-    <div className="step-container">
+    <div className="step-container d-none">
       <h2 className="pay-info">付款資訊</h2>
       <form action="" className="paying">
         <div className="payment-wrapper">

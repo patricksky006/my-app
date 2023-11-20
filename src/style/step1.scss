@@ -1,0 +1,91 @@
+%form-part-style {
+  display: flex;
+  flex-direction: column;
+  padding-right: 2rem;
+  font-size: 1.5rem;
+}
+%label-style {
+  text-align: start;
+  margin-bottom: 1rem;
+}
+%select-type-style {
+  padding: 5px;
+}
+
+.step-container {
+  width: 100%;
+  height: 100%;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  h2 {
+    text-align: start;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;;
+  }
+  .form-container {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    .a-part {
+      grid-column: 1 / 3;
+      @extend %form-part-style;
+      .label {
+        @extend %label-style;
+      }
+      .select-type {
+        @extend %select-type-style;
+      }
+    }
+    .b-part {
+      grid-column: 3 / 7;
+      @extend %form-part-style;
+      .label {
+        @extend %label-style;
+      }
+      .input {
+        @extend %select-type-style;
+      }
+    }
+    .c-part {
+      grid-column: 1 / 4;
+      @extend %form-part-style;
+      .label {
+        @extend %label-style;
+      }
+      .input {
+        @extend %select-type-style;
+      }
+    }
+    .d-part {
+      grid-column: 4 / 7;
+      @extend %form-part-style;
+      .label {
+        @extend %label-style;
+      }
+      .input {
+        @extend %select-type-style;
+      }
+    }
+    .e-part {
+      grid-column: 1 / 3;
+      @extend %form-part-style;
+      .label {
+        @extend %label-style;
+      }
+      .select-type {
+        @extend %select-type-style;
+      }
+    }
+    .f-part {
+      grid-column: 3 / 7;
+      @extend %form-part-style;
+      .label {
+        @extend %label-style;
+      }
+      .input {
+        @extend %select-type-style;
+      }
+    }
+  }
+}

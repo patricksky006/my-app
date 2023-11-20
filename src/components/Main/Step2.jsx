@@ -3,7 +3,7 @@ import React from 'react'
 export default function Step2 () {
   return (
     <>
-    <div className="step-container">
+    <div className="step-container d-none">
       <h2 className="ship-method">運送方式</h2>
       <form action="" className="shipping">
         <div className="ship-wrapper">

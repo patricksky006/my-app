@@ -9,16 +9,16 @@
 .stepper-panel {
   width: 100%;
   margin: 1rem 0;
-  border: 1px solid red;
   h2 {
     font-size: 2rem;
     text-align: start;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
   .stepper-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2rem;
     .step {
       display: flex;
       align-items: center;

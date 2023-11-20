@@ -1,6 +1,7 @@
 import React from 'react'
 import LeftArrow from '../../assets/icons/left-arrow.svg'
 import RightArrow from '../../assets/icons/right-arrow.svg'
+import '../../style/progress-control.scss'
 
 export default function ProgressControl () {
   return (
