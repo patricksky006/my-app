@@ -41,9 +41,11 @@ export default function Footer () {
         <h2 className="footer-part-title">追蹤ALPHA Shop</h2>
         <ul className="footer-part-list">
           <li className="list-text">+886 02123-45678</li>
-          <li className="list-text"><a href="#" className="page-link"><img src={Facebook} alt="" className="facebook" /></a></li>
-          <li className="list-text"><a href="#" className="page-link"><img src={Instagram} alt="" className="instagram" /></a></li>
-          <li className="list-text"><a href="#" className="page-link"><img src={Whatsapp} alt="" className="whatsapp" /></a></li>
+          <div className="footer-icon">
+            <li className="list-text"><a href="#" className="page-link"><img src={Facebook} alt="" className="facebook" /></a></li>
+            <li className="list-text"><a href="#" className="page-link"><img src={Instagram} alt="" className="instagram" /></a></li>
+            <li className="list-text"><a href="#" className="page-link"><img src={Whatsapp} alt="" className="whatsapp" /></a></li>
+          </div>
         </ul>
       </div>
     </div>

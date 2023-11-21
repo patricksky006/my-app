@@ -1,14 +1,43 @@
 .footer-container {
   width: auto;
-  height: 120px;
-  background-color: lightgray;
+  height: 160px;
+  background-color: #ececec;
   .footer-wrapper{
-    display: grid;
+    display: flex;
+    justify-content: space-around;
     width: 80%;
     margin: 0 auto;
-    grid-template-columns: repeat(5, 1fr);
-    .footer-logo-img {
-      height: 60px;
+    .footer-logo-container {
+      display: flex;
+      align-items: center;
+      .footer-logo-img {
+          height: 30px;
+          padding-left: 2rem;
+        }
+    }
+    .footer-part-container {
+      h2 {
+        padding: 1rem 0;
+        font-size: 1.5rem;
+        text-align: start;
+        font-weight: 800;
+      }
+      .footer-part-list {
+        text-align: start;
+        li {
+          padding: 0 0 0.2rem 0.1rem;
+          a {
+              color: darkgray;
+              font-weight: 600;
+            }
+        }
+        .footer-icon {
+          display: flex;
+          li {
+            margin-right: 1rem;
+          }
+        }
+      }
     }
   }
   
