@@ -1,10 +1,10 @@
 import React from 'react'
 import '../../style/step3.scss'
 
-export default function Step3 () {
+export default function Step3 ({ step }) {
   return (
     <>
-    <div className="step-container">
+    <div className="step-container" style={{ display: step === 3 ? '' : 'none' }}>
       <h2 className="pay-info">付款資訊</h2>
       <form action="" className="paying-container">
         <div className="payment-wrapper">
