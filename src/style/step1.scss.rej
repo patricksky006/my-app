@@ -1,9 +1,0 @@
-diff a/src/style/step1.scss b/src/style/step1.scss	(rejected hunks)
-@@ -0,6 +0,7 @@
- }
- %label-style {
-   text-align: start;
-+  margin-bottom: 1rem;
- }
- %select-type-style {
-   padding: 5px;
