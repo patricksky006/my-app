@@ -27,7 +27,8 @@ export default function CartInfo () {
 
   const [totalPrice, setTotalPrice] = useState(0)
 
-  useEffect(() => { // 計算總價
+  useEffect(() => {
+    // 計算總價
     const newTotalPrice = items.reduce((total, item) => {
       return total + item.price * productQuantities[item.id]
     }, 0)

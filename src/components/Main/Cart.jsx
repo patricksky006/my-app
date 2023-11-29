@@ -1,8 +1,13 @@
-import React from 'react'
-import Minus from '../../assets/icons/minus.svg'
-import Plus from '../../assets/icons/plus.svg'
+import React from "react";
+import Minus from "../../assets/icons/minus.svg";
+import Plus from "../../assets/icons/plus.svg";
 
-export default function CartItems ({ items, productQuantities, decreaseNumber, increaseNumber }) {
+export default function CartItems({
+  items,
+  productQuantities,
+  decreaseNumber,
+  increaseNumber,
+}) {
   return (
     <>
       {items.map((item) => (
@@ -17,7 +22,9 @@ export default function CartItems ({ items, productQuantities, decreaseNumber, i
                 className="product-control-minus"
                 onClick={() => decreaseNumber(item.id)}
               />
-              <span className="product-counts">{productQuantities[item.id]}</span>
+              <span className="product-counts">
+                {productQuantities[item.id]}
+              </span>
               <img
                 src={Plus}
                 alt=""
@@ -26,9 +33,11 @@ export default function CartItems ({ items, productQuantities, decreaseNumber, i
               />
             </div>
           </div>
-          <div className="product-total-price">{item.price * productQuantities[item.id]}</div>
+          <div className="product-total-price">
+            {item.price * productQuantities[item.id]}
+          </div>
         </div>
       ))}
     </>
-  )
+  );
 }

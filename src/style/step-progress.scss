@@ -1,4 +1,3 @@
-
 .stepper-panel {
   width: 100%;
   margin: 1rem 0;
@@ -32,8 +31,8 @@
         height: 20px;
         border-radius: 50%;
         color: white;
-        &::after{
-          content: '\2714';
+        &::after {
+          content: "\2714";
         }
       }
       .label-container {
