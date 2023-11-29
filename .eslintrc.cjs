@@ -22,6 +22,6 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {
-    'space-before-function-paren': ['error', 'always']
+    'react/prop-types': 0
   }
 }

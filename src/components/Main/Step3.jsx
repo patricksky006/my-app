@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../style/step3.scss'
 
-export default function Step3({ step }) {
+export default function Step3 ({ step }) {
   return (
     <>
       <div
